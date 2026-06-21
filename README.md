@@ -70,20 +70,20 @@ docs/
 [skills.sh](https://skills.sh) is a cross-tool installer for the Agent Skills standard. From any supported agent:
 
 ```bash
-npx skills add <your-github-username>/cairn
+npx skills add Snehal018/cairn
 ```
 
 Target specific agents, or keep them updated:
 
 ```bash
-npx skills add <your-github-username>/cairn -a claude-code -a codex
+npx skills add Snehal018/cairn -a claude-code -a codex
 npx skills update
 ```
 
 ### Option B — manual (git + symlink)
 
 ```bash
-git clone https://github.com/<your-github-username>/cairn.git
+git clone https://github.com/Snehal018/cairn.git
 cd cairn
 ./install.sh          # symlinks each skill into ~/.claude/skills and ~/.agents/skills
 ```
