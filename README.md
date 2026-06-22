@@ -1,14 +1,18 @@
 # Cairn
 
-A small, documentation-driven skills framework for **Claude Code** and **Codex** (and any agent that reads the [Agent Skills](https://github.com/anthropics/skills) open standard).
+**A small, documentation-driven skill pack for [Claude Code](https://claude.com/claude-code), Codex, and any agent that reads the [Agent Skills](https://github.com/anthropics/skills) open standard.**
 
-Most skill packs are bloated — they force ceremony you don't need and make decisions for you. Cairn is the opposite: a lean loop for a single developer that keeps documentation honest, asks instead of assuming, and scales the process down to the size of the work.
+A cairn is a stack of stones that marks a trail without paving it. These skills do the same for agent-assisted coding: enough structure to keep you on the path, never so much that it walks for you.
 
-Every skill is plain markdown. No bundled scripts run when a skill is invoked, so you can audit the whole thing in a couple of minutes.
+Most skill packs are bloated — ceremony you didn't ask for, decisions made on your behalf. Cairn is the opposite. It's a lean loop for one developer that keeps docs honest, asks instead of assuming, and scales the process down to the size of the work. Every fork in the road is yours to take.
+
+Every skill is plain markdown. Nothing runs when one is invoked, so you can read the whole thing in a couple of minutes.
+
+> It's not a framework you adopt. It's a handful of skills you point at the work.
 
 ## Philosophy
 
-Cairn skills enforce one set of guardrails on every coding turn:
+One set of guardrails rides along on every coding turn, so the agent works the way you would:
 
 - **The simplest thing that fully meets the requirement wins.** Over-engineering is the failure mode to fear most.
 - **Follow the requirements; don't invent scope.** When a real decision is needed, ask — don't decide for the developer.
@@ -28,7 +32,7 @@ cairn-brainstorm  →  cairn-tasks  →  cairn-plan  →  cairn-build  →  cair
                                                         doc update)                    + index)
 ```
 
-The steps are **composable** — small work skips stages. A quick fix is usually just:
+You run each step by name — nothing chains on its own, so you decide how far the loop goes. The steps are **composable**, and small work skips stages. A quick fix is usually just:
 
 ```
 cairn-diagnose  →  cairn-build  →  cairn-review  →  cairn-sync
