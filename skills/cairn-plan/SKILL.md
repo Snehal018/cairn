@@ -1,6 +1,6 @@
 ---
 name: cairn-plan
-description: Turn one Cairn task doc into a concrete, executable implementation plan and present it in the terminal — no doc is written. This is the last gap-clearing step before code: surface every assumption and clear requirement gaps with the user first. Use this after cairn-tasks, or whenever the user points at a task doc and wants the actual plan, or says "plan this task" or "how would you build this". The third step of the Cairn loop.
+description: Turn one Cairn task doc into a concrete, executable implementation plan shown in the terminal — no doc is written. The last gap-clearing step before code: surface every assumption and clear requirement gaps with the user first. Use when the user points at a task doc and wants the actual plan, after cairn-tasks, or says "plan this task" or "how would you build this". The third step of the Cairn loop.
 argument-hint: path to task doc (docs/_work/<slug>/tasks/NN-name.md)
 ---
 
@@ -10,7 +10,7 @@ Produce the real implementation plan for one task. Output goes to the **terminal
 
 ## What you do
 
-1. Read the task doc at the given path (ask for it if not given). Read the relevant `docs/areas/` and `docs/features/` docs and, crucially, the actual code you'll be touching.
+1. Read the task doc at the given path. If none was given or the file doesn't exist, stop and ask — don't plan a task you can't see. Then read the relevant `docs/areas/` and `docs/features/` docs and, crucially, the actual code you'll be touching.
 2. Write a concrete plan: the exact files to change or add, the functions/components involved, the data flow, the edge cases, and where you'll reuse existing code rather than write new.
 3. Surface every assumption explicitly. **This is the entire point of the step.** Anywhere the requirement is ambiguous, or you'd otherwise fill a gap by guessing, list it and ask the user before going further. Do not start building with open gaps.
 

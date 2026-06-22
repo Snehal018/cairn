@@ -1,6 +1,6 @@
 ---
 name: cairn-build
-description: Implement a Cairn task (or a small inline fix) as actual code, following the project's engineering guardrails, then update the living feature doc for anything whose behavior changed. Use this after cairn-plan, when the user says "build it", "implement this", "go ahead and code it", or for a small fix that doesn't need the full planning loop. The fourth step of the Cairn loop — and the entry point for small ad-hoc work.
+description: Implement a Cairn task (or a small inline fix) as actual code under the project's engineering guardrails, then update the living feature doc for anything whose behavior changed. Use when the user says "build it", "implement this", "go ahead and code it", after cairn-plan, or for a small fix that doesn't need the full planning loop. The fourth step of the Cairn loop — and the entry point for small ad-hoc work.
 argument-hint: task doc path, or an inline description of a small change
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: cairn-review
-description: Strict final review of the current changes against the Cairn engineering guardrails and the task's intent — the last guard before code is considered done. Checks for over-engineering, bloat, missed reuse, needless global state, scope creep, comment hygiene, and stale docs. Use this after cairn-build, when the user asks to "review", "check this before I ship", or wants a final pass. The fifth step of the Cairn loop.
+description: Strict final review of the current changes against the Cairn engineering guardrails and the task's intent — the last guard before code is done. Checks for over-engineering, bloat, missed reuse, needless global state, scope creep, comment hygiene, and stale docs. Use when the user asks to "review", "check this before I ship", or wants a final pass, after cairn-build. The fifth step of the Cairn loop.
 argument-hint: optional — defaults to the current uncommitted changes
 ---
 
@@ -10,7 +10,7 @@ The final guard. Review the actual changes hard, through the lens of the project
 
 ## What you review
 
-Read the current diff (uncommitted changes, or the range the user names). Check against:
+Read the current diff (uncommitted changes, or the range the user names). If there's nothing to review, say so and stop — don't invent findings. Otherwise check against:
 
 - **Over-engineering / bloat** — abstractions, layers, config, or generality the requirement didn't need. Look for this first; it's the most common and most costly.
 - **Missed reuse** — new code that duplicates something that already exists.

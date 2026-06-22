@@ -1,6 +1,6 @@
 ---
 name: cairn-brainstorm
-description: Refine a raw feature idea into a focused feature spec by grilling the user with sharp questions, then writing a throwaway spec doc. Use this whenever the user wants to start a new feature, has a rough idea to think through, says "I want to build", "spec this out", "let's brainstorm a feature", or hands over a vague request that needs shaping before any planning or code. The first step of the Cairn loop.
+description: Grill a raw feature idea into a focused, shallow feature spec, then write it as a throwaway doc. Use when the user wants to start a new feature, has a rough idea to think through, says "I want to build", "spec this out", or "let's brainstorm a feature", or hands over a vague request that needs shaping before any planning or code. The first step of the Cairn loop.
 argument-hint: [feature idea or rough description]
 ---
 

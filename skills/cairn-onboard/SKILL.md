@@ -1,6 +1,6 @@
 ---
 name: cairn-onboard
-description: Bootstrap the Cairn documentation system into a project — run once when introducing Cairn (or any coding agent) to an existing or brownfield codebase. Seeds CLAUDE.md with the engineering guardrails and a doc index, creates the docs/ taxonomy, symlinks AGENTS.md to CLAUDE.md, and writes high-level area docs for the major parts of the codebase. Use this when the user says "set up Cairn here", "onboard this project", "document this codebase", or starts using Cairn in a repo that hasn't been set up yet.
+description: Bootstrap the Cairn documentation system into a project — run once when introducing Cairn to an existing or brownfield codebase. Seeds CLAUDE.md with the engineering guardrails and doc index, creates the docs/ taxonomy, symlinks AGENTS.md to CLAUDE.md, and writes high-level area docs. Use when the user says "set up Cairn here", "onboard this project", "document this codebase", or starts using Cairn in a repo that hasn't been set up yet.
 argument-hint: none — operates on the current repository
 ---
 

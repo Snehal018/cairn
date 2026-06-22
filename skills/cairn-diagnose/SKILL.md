@@ -1,6 +1,6 @@
 ---
 name: cairn-diagnose
-description: Run a scoped debugging session that finds the root cause of a bug and proposes the fix for approval before any code changes. Leans on the user for runtime and UI observations instead of guessing. Use this whenever the user reports a bug, something "isn't working", "is broken", "throws an error", or asks you to debug or investigate — especially for frontend or UI issues. A standalone Cairn skill that hands a confirmed fix to cairn-build.
+description: Find the root cause of a bug and propose the fix for approval before any code changes, leaning on the user for runtime and UI observations instead of guessing. Use when the user reports a bug, something "isn't working", "is broken", or "throws an error", or asks you to debug or investigate — especially frontend or UI issues. A standalone Cairn skill that hands a confirmed fix to cairn-build.
 argument-hint: [the bug, symptom, or error]
 ---
 

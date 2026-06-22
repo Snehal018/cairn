@@ -1,6 +1,6 @@
 ---
 name: cairn-refactor
-description: Improve or restructure existing code to the Cairn guardrails — simplifying and removing bloat while preserving behavior. Sizes the work first: small refactors run directly, large ones get a refactor spec that feeds the normal Cairn loop. Use this when the user wants to "refactor", "clean up", "simplify", "improve the architecture", or fix unmanaged or messy code. A standalone Cairn skill.
+description: Improve or restructure existing code to the Cairn guardrails — simplifying and removing bloat while preserving behavior. Sizes the work first: small refactors run directly, large ones get a refactor spec that feeds the normal Cairn loop. Use when the user wants to "refactor", "clean up", "simplify", "improve the architecture", or fix messy code. A standalone Cairn skill.
 argument-hint: [what to refactor, or a file/area]
 ---
 

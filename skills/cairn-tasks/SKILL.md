@@ -1,6 +1,6 @@
 ---
 name: cairn-tasks
-description: Split a Cairn feature spec into scoped, ordered task docs, one markdown file per task with the deeper context that task needs. Use this after cairn-brainstorm, or when the user points at a feature spec and wants it broken into phases/tasks, or says "split this into tasks", "break this down", or "plan the phases". The second step of the Cairn loop.
+description: Split a Cairn feature spec into scoped, ordered task docs — one markdown file per task carrying the deeper context that task needs. Use when the user has a feature spec to break into phases/tasks, after cairn-brainstorm, or says "split this into tasks", "break this down", or "plan the phases". The second step of the Cairn loop.
 argument-hint: path to feature spec (docs/_work/<slug>/feature.md)
 ---
 
@@ -10,7 +10,7 @@ Break one feature spec into scoped tasks. Still a *documentation* step — you p
 
 ## What you do
 
-1. Read the feature spec at the given path. If no path is given, ask for it — explicit handoff, don't guess which feature.
+1. Read the feature spec at the given path. If no path is given or the file doesn't exist, stop and ask for it — explicit handoff, never guess which feature. If the spec predates a brainstorm and is thin, say so before splitting.
 2. Propose the task breakdown to the user *before* writing anything: small, ordered by dependency, each independently buildable and reviewable where possible. Adjust based on their feedback.
 3. For each agreed task, write a focused doc carrying the slice of context that task needs — deeper than the feature spec, but scoped to that task only.
 
