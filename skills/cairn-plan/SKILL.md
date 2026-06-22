@@ -1,6 +1,6 @@
 ---
 name: cairn-plan
-description: Turn one Cairn task doc into a concrete, executable implementation plan shown in the terminal — no doc is written. The last gap-clearing step before code: surface every assumption and clear requirement gaps with the user first. Use when the user points at a task doc and wants the actual plan, after cairn-tasks, or says "plan this task" or "how would you build this". The third step of the Cairn loop.
+description: Turn one Cairn task doc into a concrete, executable implementation plan shown in the terminal — no doc is written. The last gap-clearing step before code — surface every assumption and clear requirement gaps with the user first. Use when the user points at a task doc and wants the actual plan, after cairn-tasks, or says "plan this task" or "how would you build this". The third step of the Cairn loop.
 argument-hint: path to task doc (docs/_work/<slug>/tasks/NN-name.md)
 ---
 
